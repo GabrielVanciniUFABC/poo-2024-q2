@@ -1,3 +1,5 @@
+package Aula02;
+
 public class ComparacaoPontoFlutuante {
     public static void main(String[] args) {
         double a = 0.1;

@@ -1,3 +1,4 @@
+package Aula02;
 public class ExpressoesLogicas {
     public static void main(String[] args) {
         boolean a = true;

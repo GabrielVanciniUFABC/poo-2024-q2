@@ -1,3 +1,4 @@
+package Aula02;
 public class EstruturaSelecaoSwitch {
     public static void main(String[] args) {
         int dia = 3;

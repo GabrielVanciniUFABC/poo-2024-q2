@@ -1,3 +1,5 @@
+package Aula02;
+
 public class EscopoVariaveis {
     public static void main(String[] args) {
         int a = 10;

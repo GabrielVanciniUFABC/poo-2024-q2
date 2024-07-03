@@ -1,3 +1,4 @@
+package Aula02;
 public class PassagemArgumentoReferencia {
     public static void main(String[] args) {
         int v[] = {1, 2, 3, 4, 5};

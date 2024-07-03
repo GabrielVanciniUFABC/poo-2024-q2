@@ -1,3 +1,4 @@
+package Aula02;
 public class ExpressoesRelacionais {
     public static void main(String[] args) {
         int a = 10;

@@ -1,3 +1,4 @@
+package Aula02;
 public class EstruturasRepeticao {
     public static void main(String[] args) {
         int i = 0;
