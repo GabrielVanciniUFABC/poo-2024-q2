@@ -1,6 +1,6 @@
 package main;
 
-public class Paralelogramo extends Quadrilatero {
+public class Paralelogramo extends Trapezio {
 
     public Paralelogramo(Ponto p1, Ponto p2, Ponto p3, Ponto p4) {
         super(p1, p2, p3, p4);
@@ -8,8 +8,8 @@ public class Paralelogramo extends Quadrilatero {
 
     @Override
     public double largura() {
-        SegmentoReta s1 = new SegmentoReta(getPontos()[0], getPontos()[1]);
-        SegmentoReta s2 = new SegmentoReta(getPontos()[1], getPontos()[2]);
+        SegmentoReta s1 = new SegmentoReta(getP1(), getP2());
+        SegmentoReta s2 = new SegmentoReta(getP3(), getP4());
 
         return s1.comprimento() + s2.comprimento() * Math.cos(s2.coeficienteAngular());
     }

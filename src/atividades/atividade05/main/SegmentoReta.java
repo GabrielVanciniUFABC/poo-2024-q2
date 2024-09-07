@@ -44,18 +44,26 @@ public class SegmentoReta extends ObjetoGeometrico {
     public boolean paralelo(SegmentoReta s) {
         double a = this.coeficienteAngular();
         double b = s.coeficienteAngular();
-        double epsilon = 1e-4;
+        double epsilon = 1e-2;
         boolean paralels = Math.abs(a - b) < epsilon;
 
         return paralels;
     }
 
-    public boolean comparar(SegmentoReta s){
+    public boolean comparar(SegmentoReta s) {
         double a = this.comprimento();
         double b = s.comprimento();
         double epsilon = 1e-4;
-        boolean equals= Math.abs(a - b) < epsilon;
+        boolean equals = Math.abs(a - b) < epsilon;
 
         return equals;
+    }
+
+    public Ponto getP1() {
+        return A;
+    }
+
+    public Ponto getP2() {
+        return B;
     }
 }

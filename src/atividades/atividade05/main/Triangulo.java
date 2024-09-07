@@ -30,4 +30,14 @@ public class Triangulo extends Poligono {
         return resultado;
     }
 
+    public Ponto getP1(){
+        return getPontos()[0];
+    }
+    public Ponto getP2(){
+        return getPontos()[1];
+    }
+    public Ponto getP3(){
+        return getPontos()[2];
+    }
+
 }

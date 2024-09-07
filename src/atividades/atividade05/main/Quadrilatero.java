@@ -17,7 +17,23 @@ public abstract class Quadrilatero extends Poligono {
 
     @Override
     public double area() {
-        return altura()*largura();
+        return altura() * largura();
+    }
+
+    public Ponto getP1() {
+        return getPontos()[0];
+    }
+
+    public Ponto getP2() {
+        return getPontos()[1];
+    }
+
+    public Ponto getP3() {
+        return getPontos()[2];
+    }
+
+    public Ponto getP4() {
+        return getPontos()[3];
     }
 
 }
